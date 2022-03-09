@@ -1,2 +1,4 @@
-# kotak-colek
+#+TITLE: Kotak colek
 membuat kotak colek
+
+sumber belajar [[https://developer.mozilla.org/en-US/docs/Web/JavaScript?retiredLocale=id][https://developer.mozilla.org/en-US/docs/Web/JavaScript?retiredLocale=id]]
