@@ -1,0 +1,40 @@
+html {
+  background: yellow;
+  box-sizing: border-box;
+}
+.inbox {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.1);
+}
+.item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid wheat;
+}
+.item:nth-child(even) {
+  transform: perspective(100px) rotateX(3deg) translateY(2px) calc(1.001);
+  background: linear-gradient(to bottom, #fff 0%, #efefef 100%);
+}
+.item:nth-child(odd) {
+  transform: perspective(100px) rotateX(-3deg) translateY(3px);
+  background: linear-gradient(to top, #fff 0%, #efefef 100%);
+}
+input:checked + p {
+  background: white;
+  text-decoration: line-through;
+}
+input[type="checkbox"] {
+  margin: 20px;
+}
+p {
+  margin: 0;
+  padding: 20px;
+  transition: background 0.2s;
+  flex: 1;
+  font-size: 20px;
+  font-weight: 200;
+  border-left: 1px solid wheat;
+}
